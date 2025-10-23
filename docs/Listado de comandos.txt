@@ -1,0 +1,30 @@
+Listado de comandos:
+
+Recuerda que para compilar y ejecutar el proyecto debemos seguir los siguientes pasos:
+
+    1-Desde la consola, ubicarnos en la carpeta raíz del proyecto. Esta carpeta es donde se encuentran las subcarpetas bin, docs y src
+
+    2-Para compilar el proyecto: javac -cp src src/ui/NombreDelEjecutable.java -d bin
+
+    3-Para ejecutar el proyecto: java -cp bin ui/NombreDelEjecutable
+
+
+Recuerda que para generar la documentación del proyecto debemos seguir los siguientes pasos:
+
+    1-Desde la consola, ubicarnos en la carpeta raíz del proyecto. Esta carpeta es donde se encuentran las subcarpetas bin, docs y src
+    
+    2-Para generar la documentación del proyecto: javadoc -cp src src/ui/NombreDelEjecutable.java -d docs/API -subpackages ui:model
+
+
+Recuerda que para cargar archivos en el repositorio debemos seguir los siguientes pasos:
+
+    1-Desde la consola, ubicarnos en la carpeta raíz del proyecto. Esta carpeta es donde se encuentran las subcarpetas bin, docs y src
+
+    2-Añadir archivos (se indica que archivos se van a cargar. El . permite añadir TODOS los archivos de una carpeta): 
+    git add .
+
+    3-Hacer commit (Se "empaquetan" los archivos que se quieren cargar en el repositorio"):
+    git commit -m "Mensaje descriptivo de lo que se esta cargando"
+
+    4-Hacer push (Se envía o sube el paquete de archivos al servidor):
+    git push 
